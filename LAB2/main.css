@@ -1,0 +1,40 @@
+/* External style sheet */
+body 
+{ background-color: pink;
+  font-family: Kiwi Maru;
+}
+h1 { text-align: center;
+     font-size: 70px;
+     color:white;
+     }
+
+nav {font-weight:bold;
+    color: white;
+    padding:5px;
+    background:salmon;
+    border: 3px thin rosybrown;
+    text-align: center;
+    border-radius: 15px;
+    padding:.5em;
+    margin-bottom: 1em;
+    width: 10em;
+}
+nav ul {display: none;
+list-style: none;
+margin:0;
+padding:0;
+}
+nav:hover ul {display: block;}
+nav ul li:hover { border-top: 2px solid white;
+            background-color: white;
+            color: white;
+        }
+form { border-color: white; 
+         background-color : white;
+         color: salmon;
+         font-size: 20px;
+         border-width:thick;
+        width: 480px;
+        height: 480px;
+        font-family: Kiwi Maru;
+    }

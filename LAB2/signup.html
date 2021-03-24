@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SignUpPage</title>
+    <link rel = "stylesheet" type = "text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <style><h1> { font-family : "Rubik Mono One", sans-serif; }</style>
+</head>
+<body>
+    <h1>Welcome to YONSEI SHOP</h1>
+    <nav>Menu
+        <ul>
+            <li><a = href = "#">Login</a></li>
+            <li><a = href = "#">Sign Up</a></li>
+        </ul>
+    </nav>
+    <div style="width:100px; height: 30px; border 1px solid white; background-color:darksalmon ">Sign Up</div>
+    
+    <form action = "/action_page.php" autocomplete="on"> 
+        <p>
+        <label> 이름 : 
+            <input type = "text" id = "이름"
+            placeholder = "홍길동" autofocus
+            required= "true"
+            autofocus=""/>
+        </label>
+    </p>
+    <p >
+        <label> 생일 : 
+            <input type="date" id= "생일"
+            placeholder = "연도-월-일"
+            required="true"
+            autofocus="" />
+        </label>
+    </p>
+    <p>
+        <label>학번 : 
+            <input type = "text" id = "학번"
+            pattern="##########"
+            required="true"
+            autofocus="" />
+        </label>
+    </p>
+    <p >
+        <label>전화번호 :
+            <input type = "text" id = "전화번호"
+            placeholer = 010-####-####
+            required="true"
+            autofocus=""/>
+        </label>
+    </p>
+    <p>
+        <label>아이디: 
+            <input type = "text" id = "ID"
+            placeholder = "아이디를 입력하세요"
+            required="true"
+            autofocus=""/>
+        </label>
+    </p>
+    <p>
+        <label>비밀번호: 
+            <input type = "text" id = "password"
+            placeholder = "비밀번호를 입력하세요"
+            required="true"
+            autofocus=""/>
+        </label>
+    </p>
+    <p>
+        <label>비밀번호 확인:
+            <input type = "text" id = "ID"
+            placeholder = "비밀번호 확인"
+            required="true"
+            autofocus="" />
+        </label>
+    </p>
+    <div id = "submit"><a href = "https://2019147602.github.io/HomeworkRepository/LAB2/login.html"></a>
+        <input type = "submit" value= "submit"/>
+    </div>
+    <div id = "Cancel">
+        <input type=submit formnovalidate name=cancel value="Cancel"/>
+    </div>
+</form>
+</body>
