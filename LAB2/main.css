@@ -12,8 +12,9 @@ h1 { text-align: center;
 nav {font-weight:bold;
     color: white;
     padding:5px;
-    background:salmon;
-    border-style: solid rosybrown;
+    background:darksalmon;
+    border-style: solid;
+    border-color:white;
     text-align: center;
     border-radius: 15px;
     padding:.5em;
@@ -21,6 +22,8 @@ nav {font-weight:bold;
     width: 10em;
 }
 nav ul {display: none;
+    background-color:white;
+    width:10em;
 list-style: none;
 margin:0;
 padding:0;
@@ -41,14 +44,16 @@ form { border-color: darksalmon;
         width: 480px;
         height: 480px;
         font-family: Kiwi Maru;
+        margin:auto;
     }
 .box { width:100px; 
        height: 30px; 
-       border 1px solid white; 
        border-style: solid;
        border-color: white;
+       border-radius:15px;
        background-color:darksalmon;
        text-align:center;
        font-family:Verdana, Geneva, Tahoma, sans-serif;
        Color: white;
+       margin: top 5px;em;
         }
