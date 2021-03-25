@@ -56,4 +56,6 @@ form { border-color: darksalmon;
        font-family:Kiwi;
        Color: white;
        margin: auto;
+       position : relative;
+       left: 190px;
         }
