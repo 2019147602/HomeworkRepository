@@ -29,8 +29,9 @@ nav ul li:hover { border-top: 2px solid white;
             background-color: white;
             color: white;
         }
-form { border-color: white; 
+form { border-color: darksalmon; 
          background-color : white;
+         border-style:solid;
          color: salmon;
          font-size: 20px;
          border-width:thick;
@@ -38,3 +39,13 @@ form { border-color: white;
         height: 480px;
         font-family: Kiwi Maru;
     }
+.box { width:100px; 
+       height: 30px; 
+       border 1px solid white; 
+       border-style: solid;
+       border-color: white;
+       background-color:darksalmon;
+       text-align:center;
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+       Color: white;
+        }
