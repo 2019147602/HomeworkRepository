@@ -16,43 +16,48 @@
         </ul>
     </nav>
     <div style="width:100px; height: 30px; border 1px solid white; background-color:darksalmon ">Sign Up</div>
+    <form action="login.html">
         <p>
-        <label> 이름 : 
-            <input type = "text" id = "이름"
-            placeholder = "홍길동" autofocus
-            required= "true"
-            autofocus=""/>
-        </label>
-    </p>
+            <label> 이름 : 
+                <input type = "text" id = "이름" required="required"
+                placeholder = "홍길동" autofocus
+                autofocus=""/>
+            </label>
+        </p>
     <p >
         <label> 생일 : 
             <input type="date" id= "생일"
             placeholder = "연도-월-일"
-            required="true"
+            required
             autofocus="" />
         </label>
     </p>
     <p>
         <label>학번 : 
-            <input type = "text" id = "학번"
-            pattern="##########"
-            required="true"
+            <input type = "number" id = "학번"
+            pattern="\(\d{10,10}\) required"
+            required
             autofocus="" />
         </label>
     </p>
     <p >
         <label>전화번호 :
-            <input type = "text" id = "전화번호"
+            <input type = "tel" id = "tel"
             placeholer = 010-####-####
-            required="true"
+            required
             autofocus=""/>
+        </label>
+    </p>
+    <p>
+        <label>email :
+            <input type = "email" name="email" placeholder="이메일 입력"/>
         </label>
     </p>
     <p>
         <label>아이디: 
             <input type = "text" id = "ID"
             placeholder = "아이디를 입력하세요"
-            required="true"
+            required
             autofocus=""/>
         </label>
     </p>
@@ -60,22 +65,20 @@
         <label>비밀번호: 
             <input type = "text" id = "password"
             placeholder = "비밀번호를 입력하세요"
-            required="true"
+            required
             autofocus=""/>
         </label>
     </p>
     <p>
         <label>비밀번호 확인:
-            <input type = "text" id = "ID"
+            <input type = "text" id = "ID" required
             placeholder = "비밀번호 확인"
-            required="true"
             autofocus="" />
         </label>
     </p>
-    <div style="width:100px; height: 30px; border 1px solid white; background-color:white; color:darksalmon; text-align:center; ">
-        <a href="login.html">Sign Up</a>
-    </div>
+    <input type = "submit" value = "SignUp" formtarget="login.html">
     <div id = "Cancel">
         <input type=submit formnovalidate name=cancel value="Cancel"/>
     </div>
+</form>
 </body>
