@@ -6,9 +6,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <style><h1> { font-family : "Rubik Mono One", sans-serif; }</style>
+    <style><form>{font-family: "Kiwi Maru";}</style>
 </head>
 <body>
-    <h1>Welcome to YONSEI SHOP</h1>
+    <h1>YONSEI SHOP</h1>
     <nav>Menu
         <ul>
             <li><a = href = "login.html">Login</a></li>
@@ -19,7 +20,7 @@
     <form action="login.html">
         <p>
             <label> 이름 : 
-                <input type = "text" id = "이름" required="required"
+                <input type = "text" id = "이름" required="required" autocomplete=on
                 placeholder = "홍길동" autofocus
                 autofocus=""/>
             </label>
@@ -35,9 +36,9 @@
     <p>
         <label>학번 : 
             <input type = "number" id = "학번"
-            pattern="\(\d{10,10}\) required"
+            pattern="\(\d{10}\)" required
             required
-            autofocus="" />
+            autocomplete=on />
         </label>
     </p>
     <p >
@@ -76,9 +77,6 @@
             autofocus="" />
         </label>
     </p>
-    <input type = "submit" value = "SignUp" formtarget="login.html">
-    <div id = "Cancel">
-        <input type=submit formnovalidate name=cancel value="Cancel"/>
-    </div>
+    <input type = "submit" value = "SignUp" formtarget="login.html"><input type = "submit" value="Cancel" formtarget="signup.html" name=cancel value="Cancel"/>
 </form>
 </body>
