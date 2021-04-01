@@ -1,59 +1,71 @@
 /* External style sheet */
 /* External style sheet */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Major+Mono+Display&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Major+Mono+Display&family=Noto+Sans+JP:wght@300&family=Train+One&display=swap');
 body 
-{ background-color: pink;
-  font-family: Kiwi Maru;
+{ background-color: white;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 h1 { text-align: center;
-     font-size: 70px;
-     color:white;
+    font-family: 'Train One', cursive;
+     font-size: 80px;
+     color:blue;
      }
 
-nav {font-weight:bold;
+nav {font-size : 25px;
     color: white;
     padding:5px;
-    background:darksalmon;
+    background:darkblue;
     border-style: solid;
     border-color:white;
     text-align: center;
     border-radius: 15px;
-    padding:.5em;
     margin-bottom: 1em;
     width: 10em;
 }
 nav ul {display: none;
-    background-color:white;
-    width:10em;
-list-style: none;
-margin:0;
-padding:0;
+        background-color:white;
+        width:10em;
+        list-style: none;
+        margin:0;
+        padding:0;
 }
-nav:hover ul {display: block;}
+nav:hover ul {  display: block;
+                background-color:steelblue;}
 nav ul li:hover { border-top: 2px solid white;
-            border-style:solid;
-            border-color:darksalmon;
-            background-color: white;
-            color: white;
+                  border-style:solid;
+                  border-color:white;
+                  background-color: skyblue;
+                  color: white;
         }
-form { border-color: darksalmon; 
-         background-color : white;
+form { border-color: silver; 
+         background-color : skyblue;
          border-style:solid;
-         color: salmon;
+         color: white;
+         font-family:'Do Hyeon', sans-serif;
          font-size: 20px;
          border-width:thick;
+         border-radius: 15px;
         width: 480px;
         height: 480px;
         font-family: monospace;
         margin:auto;
+    }
+div {
+    background-color: steelblue;
+}
+label {
+        font-family : 'Do Hyeon' , sans-serif;
     }
 .box { width:100px; 
        height: 30px; 
        border-style: solid;
        border-color: white;
        border-radius:15px;
-       background-color:darksalmon;
+       background-color:darkblue;
        text-align:center;
-       font-family:Kiwi;
+       font-family:'Noto Sans JP', sans-serif;
        Color: white;
        margin: auto;
        position : relative;
