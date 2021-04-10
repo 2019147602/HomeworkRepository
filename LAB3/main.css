@@ -1,0 +1,161 @@
+/* External style sheet */
+/* External style sheet */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Major+Mono+Display&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Major+Mono+Display&family=Noto+Sans+JP:wght@300&family=Train+One&display=swap');
+body 
+{ background-color: steelblue;
+  font-family: 'Noto Sans JP', sans-serif;
+  width:1020px; 
+  margin: 0 auto;
+}
+h1 { text-align: center;
+    font-family: 'Train One', cursive;
+     font-size: 70px;
+     color:blue;
+     }
+.slide-left {
+    animation-name: slideleft;
+    animation-duration: 2s;
+}
+     @keyframes slideleft {
+         from {
+             width: 2000px;
+         }
+         to {
+             width: 1000px;
+         }
+     }
+
+nav {font-size : 25px;
+    color: white;
+    padding:5px;
+    background:darkblue;
+    border-style: solid;
+    border-color:white;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 1em;
+    width: 10em;
+}
+nav ul {display: none;
+        background-color:white;
+        width:10em;
+        list-style: none;
+        margin:0;
+        padding:0;
+}
+nav:hover ul {  display: block;
+                background-color:steelblue;}
+nav ul li:hover { border-top: 2px solid white;
+                  border-style:solid;
+                  border-color:white;
+                  background-color: skyblue;
+                  color: white;
+        }
+form { border-color: silver; 
+         background-color : skyblue;
+         border-style:solid;
+         color: white;
+         font-family:'Do Hyeon', sans-serif;
+         font-size: 20px;
+         border-width:thick;
+         border-radius: 15px;
+        width: 480px;
+        height: 480px;
+        font-family: monospace;
+        margin:auto;
+    }
+
+.img { 
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transform-origin: 
+     0 0 ;
+    transform-origin: 0 0;
+}
+
+.div1 img:hover {
+    position: relative;
+    -webkit-transform:translate(150px, 120px) scale(400/150, 400/150);
+    transform: translate(150px, 120px) scale(3.5, 2.8);
+    -webkit-transition:2s;
+    -moz-transition:2s;
+    -o-transition:2s;
+    transition:2s;
+    transition: all 2s ease-in-out;
+}
+
+.div2 img:hover {
+    position: relative;
+    -webkit-transform:translate(150px, 120px) scale(400/150, 400/150);
+    transform: translate(150px, 120px) scale(3.5, 2.8);
+    -webkit-transition:2s;
+    -moz-transition:2s;
+    -o-transition:2s;
+    transition:2s;
+    transition: all 2s ease-in-out;
+}
+
+.div1 {
+    border: 2px solid silver;
+    float:left;
+    width:400px;
+    height:400px;
+    padding:10px;
+    margin: auto;
+    background-color: white;
+}
+.div2{
+    transform-origin: top left;
+    border: 2px solid silver;
+    float: left;
+    width: 400px;
+    height:400px;
+    padding: 10px;
+    background-color: white;
+    margin: auto;
+}
+
+.div3{
+    border : 2px solid silver;
+    width: 840px;
+    height: 300px;
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;
+    float:bottom;
+    background-color:skyblue;
+    
+
+}
+.flex_container {
+    align-items:center;
+    column-count : 2;
+    column-gap: 10px;
+    column-width: 200px;
+    column-rule-style:solid;
+    column-rule-color:red;
+    column-rule-width: 4px;
+}
+
+label {
+        font-family : 'Do Hyeon' , sans-serif;
+    }
+.box { width:100px; 
+       height: 30px; 
+       border-style: double;
+       border-color: white;
+       border-radius:15px;
+       background-color:darkblue;
+       text-align:center;
+       font-family:'Noto Sans JP', sans-serif;
+       Color: white;
+       margin: auto;
+       position : relative;
+       left: 190px;
+        }

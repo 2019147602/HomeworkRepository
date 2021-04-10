@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SignUp</title>
+    <link rel = "stylesheet" type = "text/css" href="main.css">
+</head>
+<body>
+    <h1>YONSEI SHOP</h1>
+    <nav>Menu
+        <ul>
+            <li><a = href = "login.html">Login</a></li>
+            <li><a = href = "signup.html">Sign Up</a></li>
+            <li><a = href = "index.html">Main Page</a></li>
+        </ul>
+    </nav>
+    <div class="box">Sign Up</div>
+    <div>
+    <form action="login.html">
+        <p>
+            <label> 이름 : 
+                <input type = "text" id = "이름" required="required" autocomplete=on
+                placeholder = "홍길동" autofocus
+                autofocus=""/>
+            </label>
+        </p>
+    <p >
+        <label> 생일 : 
+            <input type="date" id= "생일" placeholder = "연도-월-일" required autofocus="" />
+        </label>
+    </p>
+    <p>
+        <label>학번 : 
+            <input type = "number" id = "학번" pattern="\(\d{10}\)" required autocomplete=on />
+        </label>
+    </p>
+    <p >
+        <label>전화번호 :
+            <input type = "tel" id = "tel" placeholer = 010-####-#### required autofocus=""/>
+        </label>
+    </p>
+    <p>
+        <label>email :
+            <input type = "email" name="email" placeholder="이메일 입력"/>
+        </label>
+    </p>
+    <p>
+        <label>아이디: 
+            <input type = "text" id = "ID" placeholder = "아이디를 입력하세요" required autofocus=""/>
+        </label>
+    </p>
+    <p>
+        <label>비밀번호: 
+            <input type = "text" id = "password" placeholder = "비밀번호를 입력하세요" required autofocus=""/>
+        </label>
+    </p>
+    <p>
+        <label>비밀번호 확인:
+            <input type = "text" id = "ID" required placeholder = "비밀번호 확인" autofocus="" />
+        </label>
+    </p>
+    <input type = "submit" value = "SignUp" formtarget="login.html"><input type = "submit" value="Cancel" formtarget="signup.html" name=cancel value="Cancel"/>
+</form>
+</div>
+</body>
